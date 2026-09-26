@@ -1,0 +1,65 @@
+# ---- 依赖 / 环境 ----
+node_modules/
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# ---- 密钥与本地配置（务必不要提交）----
+.env
+.env.*
+!.env.example
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ---- 测试 / 类型检查缓存 ----
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- 数据与模型产物（体积大 / 可重新生成）----
+data/
+datasets/
+outputs/
+runs/
+checkpoints/
+logs/
+wandb/
+*.pdb
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.h5
+*.onnx
+*.joblib
+*.pkl
+*.log
+*.tmp
+*.bak
+
+# ---- 编辑器 / 操作系统 ----
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
